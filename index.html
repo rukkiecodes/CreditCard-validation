@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="main.css">
+<link rel="stylesheet" href="<link rel=" stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+  integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">">
+  <script src="main.js"></script>
+  <title>ATM check</title>
+</head>
+<body>
+<div class="card">
+    <input type="text" id="card" placeholder="Please enter card number">
+
+    <p id="tell"></p>
+    <div class="card-types">
+      <i class="fab fa-cc-amex" id="amx"></i>
+
+      <i class="fab fa-cc-diners-club" id="dc"></i>
+
+      <i class="fab fa-cc-discover" id="discover"></i>
+
+      <i class="fab fa-cc-jcb" id="jcb"></i>
+
+      <i class="fab fa-cc-mastercard" id="master"></i>
+
+      <i class="fab fa-cc-visa" id="visa"></i><br>
+    </div>
+
+  <button type="button" onclick="checkCard()">Check Card</button><br>
+  <a href="index.html">Refresh</a>
+  
+  <p id="page"></p>
+
+<br />
+<div id="resultDiv"></div>
+  </div>
+</body>
+</html>
